@@ -1,0 +1,119 @@
+*{
+background-color: black;
+font-family: 'Roboto', sans-serif;
+color: white;
+}
+
+.s1, .s2, .s3, .s4, .s5, .s6, .s7, .s8, .s9, .s10{
+    display: inline-block;
+    border: solid rgb(56, 52, 52);
+    background-color: rgb(56, 52, 52);
+    border-radius: 5px;
+    padding: 2px;
+    font-weight: 200;
+    font-size: small;
+}
+.nav{
+    display: inline-block;
+    align-content: space-between;
+    width: 100vw;
+    position: relative;
+    justify-content: space-evenly;
+    margin-top: auto;
+    margin-right: 0;
+    margin-left: 0;
+    }
+
+img{
+    width: 300px;
+    height: 175px;
+    border: solid white;
+    border-radius: 20px;
+}
+.thumb1{
+    width: 300px;
+    height: 175px;
+}
+.logo{
+    height: 50px;
+    width: 70px;
+    border-radius: 0;
+    border: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+     }
+
+    /*img{border: solid white;
+    border-radius: 15px;
+    padding-inline: 15px;
+    position: absolute;
+    align-items: center;
+    position:absolute;
+    height:auto;
+    text-align:center;
+}*/
+.row1, .row2{
+     height: 45%;
+     margin: 10px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between 5px;
+     align-items: center;
+     margin-bottom: 5px;
+    align-content: space-evenly;
+ }
+ //*.empty{
+    width: 300px;
+    height: 175px;
+    border: solid white;
+    border-radius: 20px;
+ }*/
+
+ /*.sidebar{
+    width: 30vw;
+    height: 80vh;
+    border: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+ }*/
+
+ .mainheader{
+    display: flex;
+    align-items: center;
+ }
+ .header{
+    width: 30vw;
+    height: 30px;
+    border: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+ }
+.sidebar{
+    border: none;
+    width: 70px;
+    height: 80vh;
+}
+.search{
+    width: 40vw;
+    height: 15px;
+    border: solid white;
+    border-width: 1px;
+    position: relative;
+    padding: 10px;
+    margin-inline-start: 30vw;
+    border-radius: 30px;
+    text-align: left;
+ }
+ .videos{
+    display: grid;
+    grid-template-columns: 4;
+    grid-template-rows: 2;
+    grid-column-gap: 5px;
+    margin-top: 20vh;
+ }
